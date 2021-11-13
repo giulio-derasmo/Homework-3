@@ -5,7 +5,7 @@
 </p>
 
 
-* __Group__:
+**Group**:
 - Giuliana Iovino
 - Adilet Karim
 - Giulio D'Erasmo
