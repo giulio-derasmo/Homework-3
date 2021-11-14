@@ -153,7 +153,7 @@ def scrabbing_anime3(soup, anime_info):
         for i in range(1, len(tag), 2):
             x.append(tag[i].contents[1].contents[0])
             y.append(tag[i].find_all("small")[0].contents[0])
-        staff.append([list(i) for i in list(zip(x,y))])
+        staff.extend([list(i) for i in list(zip(x,y))])
     except:
         staff = None
     
