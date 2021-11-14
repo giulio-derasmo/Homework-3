@@ -27,6 +27,7 @@ The repository consists of the following files:
      2.2. Conjunctive query & Ranking score
    - [EX3] Define a new score! <br>
      Define a new scoring function to implement in the Search engine
+   - [EX4] BONUS: Understanding the anime's reviews
    - [EX5] Algorithmic question: <br>
      You consult for a personal trainer who has a back-to-back sequence of requests for appointments. A sequence of requests is of the form > 30, 40, 25, 50, 30, 20 where each number is the time that the person who makes the appointment wants to spend. You need to accept some requests, however you need a break between them, so you cannot accept two consecutive requests. For example, [30, 50, 20] is an acceptable solution (of duration 100), but [30, 40, 50, 20] is not, because 30 and 40 are two consecutive appointments. Your goal is to provide to the personal trainer a schedule that maximizes the total length of the accepted appointments. For example, in the previous instance, the optimal solution is [40, 50, 20], of total duration 110.
    
