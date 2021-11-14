@@ -14,3 +14,22 @@
 **Goal of the homework**: Build a search engine over the "Top Anime Series" from the list of [MyAnimeList](https://myanimelist.net/). Unless differently specified, all the functions must be implemented from scratch.
 
 
+The repository consists of the following files:
+
+1. __[main.ipynb]__:
+   > A Jupyter notebook which provides the solutions to homework questions:
+   - [EX1] Data collection
+   > 1.1. Get the list of animes
+     1.2. Crawl animes
+     1.3 Parse downloaded pages
+   - [EX2] Search Engine
+   > 2.1. Conjunctive query
+     2.2. Conjunctive query & Ranking score
+
+   - [EX3] Define a new score!
+   > Define a new scoring function to implement in the Search engine
+   - [EX5] Algorithmic question:
+   > You consult for a personal trainer who has a back-to-back sequence of requests for appointments. A sequence of requests is of the form > 30, 40, 25, 50, 30, 20 where each number is the time that the person who makes the appointment wants to spend. You need to accept some requests, however you need a break between them, so you cannot accept two consecutive requests. For example, [30, 50, 20] is an acceptable solution (of duration 100), but [30, 40, 50, 20] is not, because 30 and 40 are two consecutive appointments. Your goal is to provide to the personal trainer a schedule that maximizes the total length of the accepted appointments. For example, in the previous instance, the optimal solution is [40, 50, 20], of total duration 110.
+   
+
+
